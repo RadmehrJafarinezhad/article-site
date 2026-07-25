@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.container input,
+.container textarea {
+    flex: 1;
+}
+.container h3 {
+    width: 120px;
+    margin: 0;
+}
+.upload {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 250px;
+    height: 50px;
+
+    border: 2px dashed #3b82f6;
+    border-radius: 12px;
+
+    background: #f8fbff;
+    color: #2563eb;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: .25s;
+}
+
+.upload:hover {
+    background: #2563eb;
+    color: white;
+}
